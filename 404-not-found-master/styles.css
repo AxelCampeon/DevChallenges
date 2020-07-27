@@ -1,0 +1,75 @@
+.wrapper {
+    background-color: ivory;
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+
+  .backbutton{
+      
+    border: 1px solid ivory;
+    background-color: dimgray;
+    padding: 4px 12px;
+    color: ivory;
+    
+  }
+
+  .title{
+    font-weight: bold;
+  }
+.header{
+    text-align: left;
+}
+
+  .scarecrow{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .aside-1{
+    
+  }
+
+  .main {
+    text-align: left;
+    
+  }
+
+
+  .aside-2 {
+
+    
+  }
+
+  .main{
+    
+  }
+  
+@media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+}
+  
+@media all and (min-width: 800px) {
+    .main    { flex: 2 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; } 
+    .footer  { order: 4; }
+}  
+
+
+body {
+    background-color: dimgrey;
+    padding: 4em; 
+}
+
