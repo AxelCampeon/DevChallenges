@@ -13,8 +13,8 @@ body {
 }
 
 .img-wrapper {
-
     margin: 0 auto;
+
 }
 
 .img-wrapper .img {
@@ -29,11 +29,10 @@ body {
 
 .img {
     width: 100%;
+
 }
 
-.body-404 {
-    max-width: 900;
-}
+.body-404 {}
 
 .title {
     text-align: left;
@@ -42,5 +41,24 @@ body {
 .wrapper-404 {
     display: flex;
     margin-bottom: 30px;
-    max-width: 1200px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.back-to-homepage {
+    display: block;
+    max-width: 200px;
+    margin: 0 left;
+    text-align: center;
+    background-color: black;
+    color: #FFF;
+    text-decoration: none;
+    padding: 25px 0;
+    font-weight: 900;
+    font-size: smaller;
+}
+
+.footer {
+    text-align: center;
 }
