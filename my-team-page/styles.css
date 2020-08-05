@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&family=Noto+Serif:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.main-wrapper {
+    height: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+
+}
+
+.text {
+    display: flex;
+    flex-flow: row;
+    max-width: 100%;
+    padding-bottom: 50px;
+
+}
+
+.maintitle {
+    width: 300px;
+}
+
+.title2 {
+    padding-bottom: 30px;
+}
+
+.subtext {}
+
+.row1 {
+    display: flex;
+    flex: row;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.team {
+    display: flex;
+    flex: row;
+    max-width: 100%;
+}
+
+.profile {
+    max-width: 200px;
+}
+
+
+.person {
+    max-width: 220px;
+    display: flex;
+    flex-flow: row;
+
+}
+
+.name {}
+
+
+.job {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+
+}
