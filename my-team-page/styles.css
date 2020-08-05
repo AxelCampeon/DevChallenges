@@ -47,8 +47,7 @@ body {
     font-weight: 500;
 }
 
-.row1,
-.row2 {
+.personRow {
     display: flex;
     flex: row;
     width: 100%;
