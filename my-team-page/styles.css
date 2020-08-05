@@ -2,7 +2,6 @@
 
 body {
     height: 100vh;
-    font-family: 'Heebo', sans-serif;
     font-family: 'Noto Serif', serif;
 
 }
@@ -26,28 +25,37 @@ body {
 
 }
 
-.maintitle {
-    width: 300px;
+.maintitle {}
+
+.subtext {
+
+    font-family: 'Heebo', sans-serif;
+}
+
+.description {
+    font-weight: 200;
+}
+
+
+.title1 {
+    font-size: 50px;
 }
 
 .title2 {
     padding-bottom: 30px;
+
+    font-weight: 500;
 }
 
-.subtext {}
-
-.row1 {
+.row1,
+.row2 {
     display: flex;
     flex: row;
     max-width: 100%;
     justify-content: space-around;
 }
 
-.team {
-    display: flex;
-    flex: row;
-    max-width: 100%;
-}
+.team {}
 
 .profile {
     max-width: 200px;
