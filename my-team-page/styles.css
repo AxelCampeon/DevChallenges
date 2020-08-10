@@ -98,3 +98,18 @@ body {
     bottom: 0;
     font-weight: 600;
 }
+
+.personList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personWrap {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+li.personWrap:nth-child(3n -1) {
+    position: relative;
+    top: 30px;
+}
