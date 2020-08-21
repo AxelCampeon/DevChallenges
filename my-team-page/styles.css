@@ -13,6 +13,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 50px;
+    padding: 10px;
 
 }
 
@@ -94,9 +95,12 @@ body {
 }
 
 .footer {
+    /*
     position: absolute;
     bottom: 5px;
+    */
     font-weight: 600;
+    align-self: flex-end;
 }
 
 .personList {
@@ -124,6 +128,7 @@ li.personWrap:nth-child(3n -1) {
     li.personWrap:nth-child(2n) {
         position: relative;
         top: 30px;
+        margin-left: auto;
     }
 
     .opener {
