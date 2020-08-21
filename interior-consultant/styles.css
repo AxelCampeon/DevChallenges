@@ -1,0 +1,81 @@
+body {
+    background-color: #333333;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+.interiorButton {
+    border: white solid 1px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav {
+    display: flex;
+
+}
+
+.nav p {
+    padding-left: 150px;
+    font-size: 1.2rem;
+}
+
+.nav:first-child {
+    padding-left: 0;
+}
+
+
+.contentWrap {
+    display: flex;
+    margin: 100px 200px;
+
+    justify-content: space-between;
+}
+
+.textWrap {
+    max-width: 500px;
+}
+
+.textWrap h1 {
+    font-size: 4rem;
+
+}
+
+.textWrap p {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.textWrap a {
+    text-decoration: none;
+    color: white;
+}
+
+.designPhoto {
+    max-width: 700px;
+}
+
+.credits {
+    background-color: tomato;
+    max-width: 500px;
+    padding: 15px 0px;
+}
+
+.person {
+    display: flex;
+}
+
+.profile {
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+.nameWrap {}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {}
+
+.mainWrap {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.birdWrap {
+    margin-left: auto;
+
+}
+
+.midheader {
+    display: flex;
+    margin-left: auto;
+
+}
+
+.beer {
+    margin: 0px 5px;
+}
+
+.columns {
+    display: flex;
+
+}
+
+.column {
+    padding: 20px 15px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column span {
+    font-weight: 300;
+}
+
+.column h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 5px 0px 15px 0px
+}
+
+.column p {
+    line-height: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.readButton {
+    display: block;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    align-self: center;
+    justify-self: flex-end;
+    margin-top: auto;
+}
+
+.read {}
+
+.column:nth-child(1) {
+    background-color: #ff9aa2;
+}
+
+.column:nth-child(2) {
+    background-color: #ffb7b2;
+}
+
+.column:nth-child(3) {
+    background-color: #ffdac1;
+}
+
+.column:nth-child(4) {
+    background-color: #e2f0cb;
+}
+
+.column:nth-child(5) {
+    background-color: #c7ceea;
+}
