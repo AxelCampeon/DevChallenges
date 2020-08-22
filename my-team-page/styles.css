@@ -21,7 +21,7 @@ body {
     flex-flow: row;
     max-width: 100%;
     justify-content: space-between;
-    background-color: turquoise;
+
     padding-top: 15px;
 
 }
@@ -70,14 +70,14 @@ body {
 .personDiv {
     display: flex;
     width: 33%;
-    background-color: tomato;
+
     justify-content: space-around;
 }
 
 .personWrap {
     display: inline;
     margin-bottom: 30px;
-    background-color: teal;
+
 
 }
 
@@ -109,7 +109,7 @@ body {
     position: absolute;
     bottom: 0;
 */
-    background-color: white;
+
     font-weight: 600;
     padding-bottom: 5px;
 
@@ -159,7 +159,4 @@ body {
         max-width: 120px;
     }
 
-    body {
-        background-color: tomato;
-    }
 }
