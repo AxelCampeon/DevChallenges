@@ -7,7 +7,7 @@ body {
 
 .main-wrapper {
     height: 100vh;
-    max-width: 900px;
+    max-width: 800px;
     box-sizing: border-box;
     margin: 0px auto;
     display: flex;
@@ -47,6 +47,7 @@ body {
 .title2 {
 
     font-weight: 500;
+    padding-bottom: 10px;
 }
 
 
@@ -64,14 +65,11 @@ body {
 .personList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .personDiv {
     display: flex;
     width: 33%;
-
-    justify-content: space-around;
 }
 
 .personWrap {
@@ -133,21 +131,34 @@ body {
     .personDiv:nth-of-type(3n-1) {
         position: relative;
         top: 30px;
+        justify-content: space-around;
     }
 
+    .personDiv:nth-of-type(3n) {
+        justify-content: flex-end;
+    }
 
 }
 
 @media (max-width: 820px) {
 
-    .personDiv:nth-of-type(2n) {
-        position: relative;
-        top: 30px;
-    }
 
     .personDiv {
         width: 50%;
+
     }
+
+    .personWrap {
+        padding-left: 5px;
+    }
+
+    .personDiv:nth-of-type(2n) {
+        position: relative;
+        top: 30px;
+        justify-content: flex-end;
+        right: 5px;
+    }
+
 
     .opener {
         flex-direction: column;
