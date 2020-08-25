@@ -8,44 +8,48 @@ body {}
 
 .mainWrap {
     font-family: 'Roboto', sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
-    width: 100vw;
-    height: 5vh;
     font-size: 1.2rem;
     font-weight: 700;
-    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
 }
 
 .birdWrap {
-    margin-left: auto;
+    position: absolute;
+    right: 15px;
 
 }
 
 .midheader {
     display: flex;
-    margin-left: auto;
 
 }
 
 .beer {
-    margin: 0px 5px;
+    font-size: 1.5em;
+    line-height: 0;
+    position: relative;
+    top: 7px;
+    margin: 0 10px;
 }
 
 .columns {
     display: flex;
-
+    flex-grow: 1;
 }
 
 .column {
     padding: 20px 15px;
-    height: 95vh;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
 
 .column span {
@@ -76,12 +80,8 @@ body {}
     padding: 20px;
     font-size: 1.2rem;
     font-weight: 800;
-    align-self: center;
-    justify-self: flex-end;
-    margin-top: auto;
 }
 
-.read {}
 
 .column:nth-child(1) {
     background-color: #ff9aa2;
@@ -101,4 +101,14 @@ body {}
 
 .column:nth-child(5) {
     background-color: #c7ceea;
+}
+
+@media only screen and (max-width: 900px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .column .article {
+        width: 100%;
+    }
 }
